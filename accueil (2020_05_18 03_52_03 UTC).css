@@ -1,0 +1,330 @@
+@font-face {
+	    font-family: 'sansitalight';
+	    src: url('Police/sansita-light-webfont.eot');
+	    src: url('Police/sansita-light-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('Police/sansita-light-webfont.woff') format('woff'),
+	         url('Police/sansita-light-webfont.ttf') format('truetype'),
+	         url('Police/sansita-light-webfont.svg#sansitalight') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansitaregular';
+    src: url('Police/sansita-regular-webfont.eot');
+    src: url('Police/sansita-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Police/sansita-regular-webfont.woff') format('woff'),
+         url('Police/sansita-regular-webfont.ttf') format('truetype'),
+         url('Police/sansita-regular-webfont.svg#sansitaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Logo*/
+@media all and (min-width: 1025px)
+{	
+	header
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+	}
+}
+
+@media all and (max-width: 1024px)
+{
+	header
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	header #logo img
+	{
+		display: flex;
+		justify-content: center;
+		margin: auto;
+		padding-top: 20px;
+		width: 100%;
+		height: auto;		
+	}
+
+	header #titre img
+	{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: auto;
+	}
+
+	
+	
+}
+
+/*Presentation*/
+section
+{
+	color: rgb(34,34,34);
+	border-style: outset none outset none;
+	background-image: url("Image/banniere_peinture3.png");
+	width: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+section h1
+{
+	color: white;
+	font-family: 'sansitaregular', cursive;
+	margin-left: 100px;
+}
+
+section p 
+{
+	margin-left: 100px;
+	margin-right: 50px;
+	font-family:  'sansitalight', Helvetica, sans-serif ;
+	text-align: justify;
+	line-height: 140%;
+
+}
+
+section p span
+{
+	color: white;
+	font-family: 'sansitaregular', cursive;
+}
+
+@media all and (max-width: 1024px)
+{
+	/*section h1
+	{
+		font-size: x-large;
+	}
+	section p
+	{
+		font-size: large;
+	}*/
+}
+
+/*Calendar*/
+
+table
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+tr
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+table a
+{
+	text-decoration: none;
+	color: black;
+}
+table a:hover
+{
+	color:white;
+}
+
+td
+{
+	border-style: outset none outset none;
+	font-family: 'sansitaregular', cursive;
+	text-align: center;
+	font-size: large;
+	color: white;
+	padding-top: 10px;
+	margin: 10px 10px 10px 10px;
+	width: 150px;
+	height: 100px;
+	
+}
+
+td.vide
+{
+	border: none;
+}
+
+td a
+{
+	display: block;
+}
+
+a
+{
+	width: 100%;
+	height: 100%;
+}
+
+#August
+{
+	background-image: url("Image/Calendrier_final/banniere_mer_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#September
+{
+	background-image: url("Image/Calendrier_final/banniere_route_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#October
+{
+	background-image: url("Image/Calendrier_final/banniere_fleurs_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#November
+{
+	background-image: url("Image/Calendrier_final/banniere_guitariste_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#December
+{
+	background-image: url("Image/Calendrier_final/banniere_desert_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#January
+{
+	background-image: url("Image/Calendrier_final/banniere_montagne_neige_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#February
+{
+	background-image: url("Image/Calendrier_final/banniere_montagne_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#March
+{
+	background-image: url("Image/Calendrier_final/banniere_plage_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#April
+{
+	background-image: url("Image/Calendrier_final/banniere_skyline_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#May
+{
+	background-image: url("Image/Calendrier_redim2/banniere_vegesable_redim2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+caption
+{
+	font-family: 'sansitaregular', cursive;
+	font-weight: lighter;
+	font-size: x-large;
+}
+
+@media screen and (max-width: 1024px)
+{
+	table 
+	{
+		width: 100%;
+		height: auto;
+		justify-content: center;
+	}
+
+	td
+	{
+		width: 25%;
+		max-width: 200px;
+	}
+
+	table a
+	{
+		font-size: x-large;
+	}
+	
+}
+
+@media handheld and (max-width: 1024px)
+{
+	table 
+	{
+		width: 100%;
+		height: auto;
+		justify-content: center;
+	}
+
+	td
+	{
+		width: 25%;
+		max-width: 200px;
+	}
+	table a
+	{
+		font-size: xx-large;
+	}
+}
+
+/*Last post*/
+footer
+{
+	color: rgb(34,34,34);
+	border-style: outset none outset none;
+	background-image: url("Image/banniere_peinture3.png");
+	margin-top: 50px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+footer h2
+{
+	font-family: 'sansitaregular', cursive;
+	
+	padding-left: 100px;
+	font-weight: lighter;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+footer a
+{
+	text-decoration: none;
+	color:white;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+footer :hover
+{
+	color: rgb(255,87,87);
+	background-color: white;
+}

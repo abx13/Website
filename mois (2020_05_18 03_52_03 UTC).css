@@ -1,0 +1,254 @@
+@font-face {
+	    font-family: 'sansitalight';
+	    src: url('Police/sansita-light-webfont.eot');
+	    src: url('Police/sansita-light-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('Police/sansita-light-webfont.woff') format('woff'),
+	         url('Police/sansita-light-webfont.ttf') format('truetype'),
+	         url('Police/sansita-light-webfont.svg#sansitalight') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansitaregular';
+    src: url('Police/sansita-regular-webfont.eot');
+    src: url('Police/sansita-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Police/sansita-regular-webfont.woff') format('woff'),
+         url('Police/sansita-regular-webfont.ttf') format('truetype'),
+         url('Police/sansita-regular-webfont.svg#sansitaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/**header**/
+header
+{
+	display: flex;
+	border-bottom: 3px double rgb(255,87,87);
+	margin-top: 0px;
+	background-image: url("Image/banniere_peinture3.png");
+	width: 100%;
+	
+
+}
+/*logo*/
+header aside img
+{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 0px;
+}
+/*calendar*/
+
+header section
+{
+	width: 100%;
+}
+header h1 
+{
+	font-family: 'sansitalight', cursive;
+	font-size: 70px;
+	margin: auto;
+	color: white;
+	text-align: center;
+	margin-top: 60px;
+
+}
+header h1 a
+{
+	color: white;
+}
+
+/*mois*/
+#mois
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+#mois h1
+{
+	font-family: 'sansitaregular', cursive;
+	color: rgb(255,87,87);
+	text-align: center;
+	font-size: 70px;
+	position: relative;
+	
+	
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+ }
+
+#mois a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: rgb(255,87,87);
+  color: white;
+  width: 10px;
+  height: 20px;
+  padding: 8px 16px;
+  position: relative;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+.next {
+  background-color: rgb(255,87,87);
+  color: white;
+  width: 10px;
+  height: 20px;
+  padding: 8px 16px;
+  position: relative;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+/*articles*/
+
+/*sans article*/
+#articles section
+{
+	border: 3px solid rgb(255,87,87);
+	width: 600px;
+	height: 400px;
+
+	background-image: url("Image/fond_books_redim_txt2.jpg");
+	
+	font-family: 'sansitaregular', cursive;
+	font-size: x-large;
+	color:black;
+
+	margin: auto;
+	
+}
+
+
+/*avec article*/
+
+#articles table
+{
+	margin: auto;	
+}
+
+#articles table tr
+{
+	display: flex;
+	flex-direction: row;
+	
+	border: 3px solid rgb(255,87,87);
+	
+	margin: 10px 10px 10px 10px;
+	width: 700px;
+	height: 70px;	
+}
+
+
+
+#articles table tr td.nb
+{
+	font-family: 'sansitaregular', cursive;
+	font-size: 40px;
+	width: 15%;
+	margin: auto;
+	text-align: center;
+}
+
+#articles table tr td.titre
+{
+	font-family: 'sansitaregular', cursive;
+	font-size: 25px;
+	width: 85%;
+	height: 85%;
+	
+	text-align: center;
+	padding-top: 10px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#articles table tr td.nb
+	{
+		font-size: 50px;
+	}
+
+	#articles table tr td.titre
+	{
+		font-size: xx-large;
+	}
+}
+
+#articles a
+{
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+#articles tr:hover
+{
+	color: black;
+}
+
+
+#articles table tr td a
+{
+	display: block;	
+}
+
+
+
+/*Last post*/
+footer
+{
+	color: rgb(34,34,34);
+	border-style: outset none outset none;
+	background-image: url("Image/banniere_peinture3.png");
+	margin-top: 50px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+footer h2
+{
+	font-family: 'sansitaregular', cursive;
+	
+	padding-left: 100px;
+	font-weight: lighter;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+footer a
+{
+	text-decoration: none;
+	color:white;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+footer :hover
+{
+	color: rgb(255,87,87);
+	background-color: white;
+}
